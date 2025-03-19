@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Amigo Secreto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>Projeto Amigo Secreto</h1>
+</header>
+<main>
+    <!-- Seção para adicionar participantes -->
+    <section>
+        <h2>Adicionar Participante</h2>
+        <form id="participantForm">
+            <input type="text" id="participantName" placeholder="Digite o nome do participante" required>
+            <button type="submit">Adicionar</button>
+        </form>
+    </section>
+
+    <!-- Lista de participantes -->
+    <section>
+        <h2>Lista de Participantes</h2>
+        <ul id="participantList"></ul>
+    </section>
+
+    <!-- Seção de sorteio -->
+    <section>
+        <h2>Sorteio</h2>
+        <button id="drawButton" disabled>Sorteio</button>
+        <p id="result"></p>
+    </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
